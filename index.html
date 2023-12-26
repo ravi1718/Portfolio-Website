@@ -11,8 +11,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header>
@@ -23,18 +26,18 @@
         </div>
         <div class="right">
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Services</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a href="/">Certificates</a></li>
-            <li><a href="/">Contact Me</a></li>
+            <li><a href="#scrollToSection" onclick="scrollToHome()">Home</a></li>
+            <li><a href="#scrollToSection" onclick="scrollToAbout()">About</a></li>
+            <li><a href="#scrollToSection" onclick="scrollToExperience()">Experience</a></li>
+            <li><a href="#scrollToSection" onclick="scrollToCertificates()">Certificates</a></li>
+            <li><a href="#scrollToSection" onclick="scrollToProjects()">Projects</a></li>
+            <li><a href="#scrollToSection" onclick="scrollToContact()">Contact Me</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <section class="first">
+      <section id="first">
         <div class="leftsection">
           Hi,My name is <span class="purple">Ravitej Neeli</span>
           <div>and I am a passionate</div>
@@ -53,11 +56,17 @@
         </div>
       </section>
       <hr />
-      <section class="secondsection">
+      <section id="secondsection">
         <h1>About Me</h1>
-        <img class="profile-img" src="/images/profile img.jpg" alt="">
+        <img class="profile-img" src="/images/profile img.jpg" alt="" />
         <div class="text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusantium, totam reprehenderit laborum, perferendis rem quod cum consequuntur, veritatis minus consequatur illum at distinctio nobis iusto facilis mollitia! Cumque eos iusto quod a libero assumenda veniam magni, sed eaque alias adipisci veritatis harum reprehenderit voluptatum earum consectetur, impedit atque at quo deleniti obcaecati quasi. A minus commodi odit cumque culpa.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+          accusantium, totam reprehenderit laborum, perferendis rem quod cum
+          consequuntur, veritatis minus consequatur illum at distinctio nobis
+          iusto facilis mollitia! Cumque eos iusto quod a libero assumenda
+          veniam magni, sed eaque alias adipisci veritatis harum reprehenderit
+          voluptatum earum consectetur, impedit atque at quo deleniti obcaecati
+          quasi. A minus commodi odit cumque culpa.
         </div>
         <div class="socials">
           <ul>
@@ -66,13 +75,11 @@
             <li><a href="#"></a><i class="fa fa-google-plus"></i></li>
             <li><a href="#"></a><i class="fa fa-whatsapp"></i></li>
             <li><a href="#"></a><i class="fa fa-github"></i></li>
-            
-            
           </ul>
         </div>
       </section>
       <hr />
-      <section class="thirdsection">
+      <section id ="thirdsection">
         <h1>Experience</h1>
         <div class="box">
           <div class="vertical">
@@ -114,35 +121,38 @@
         </div>
       </section>
       <hr />
-      <section class="Certificates">
+      <section id="Certificates">
         <h1>CERTIFICATES</h1>
         <div class="container1">
-          <img src="/images/c certificate.jpg" alt="">
-          <img src="/images/java certificate.jpg" alt="">
-          <img src="/images/c certificate.jpg" alt="">
+          <img src="/images/c certificate.jpg" alt="" />
+          <img src="/images/java certificate.jpg" alt="" />
+          <img src="/images/c certificate.jpg" alt="" />
         </div>
-        
       </section>
       <hr />
 
-      <section class="Projects">
+      <section id="Projects">
         <h1>PROJECTS</h1>
         <div class="card">
-          <img src="/images/card icon.jpg" alt="icon">
+          <img src="/images/card icon.jpg" alt="icon" />
           <div class="container">
-            <h4><b>Weather-App</b></h4> 
-            <p>created a weather app using HTML CSS and JavaScript <br>which tells the current weather of <br>the location you enter
-            </p> 
+            <h4><b>Weather-App</b></h4>
+            <p>
+              created a weather app using HTML CSS and JavaScript <br />which
+              tells the current weather of <br />the location you enter
+            </p>
             <button class="crd-btn">
-              <a href=" https://ravi1718.github.io/Weather-App/" style="color: white;">click here</a>
+              <a
+                href=" https://ravi1718.github.io/Weather-App/"
+                style="color: white"
+                >click here</a
+              >
             </button>
           </div>
         </div>
       </section>
-
-
-
     </main>
+    
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
@@ -153,5 +163,6 @@
         typeSpeed: 50,
       });
     </script>
+    <script src="script.js"></script>
   </body>
 </html>
