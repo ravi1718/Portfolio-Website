@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 50);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(153, 153, 226);
+  font-size: 1.02rem;
+}
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 40px 84px;
+}
+.left {
+  font-size: 1.5rem;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+.first > div {
+  width: 40%;
+}
+.leftsection {
+  font-size: 2.8rem;
+  margin: 30px 0;
+}
+.leftsection .btn{
+  padding: 12px;
+  background: #1e2167;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.rightsection img {
+  width: 80%;
+  margin-left: 70px;
+}
+.purple {
+  color: blueviolet;
+}
+#element {
+  color: blueviolet;
+}
+.profile-img{
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.secondsection h1{
+  font-size: 2rem;
+  margin-left: 20px;
+}
+.secondsection .text{
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.secondsection .socials ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.secondsection .socials li {
+  margin: 0 10px;
+}
+.secondsection .socials a {
+  text-decoration: none;
+  color: #fff;
+}
+.secondsection .socials a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+.secondsection.socials a:hover i {
+  color: rgb(43, 211, 211);
+}
+.thirdsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 70vh;
+}
+.thirdsection hr {
+  font-size: 2rem;
+}
+.thirdsection .box {
+  background: white;
+  width: 60vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.thirdsection .vertical {
+  height: 93px;
+  width: 1px;
+  background: white;
+  margin: 0 100px;
+}
+.image-top {
+  width: 35px;
+  position: relative;
+  top: -45px;
+  left: -15px;
+}
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 130px;
+}
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: gray;
+  width: 150px;
+  font-size: 9px;
+}
+.Certificates h1{
+  font-size: 2rem;
+  margin-left: 20px;
+}
+.container1 img{
+  width:450px;
+  margin-left: 30px;
+  margin-top: 10px;
+  
+}
+.Projects h1{
+  font-size: 2rem;
+  margin-left: 20px;
+  
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border: 2px solid black;
+  border-radius: 25px;
+  width: 20%;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+.card img{
+  width: 100%;
+  border-radius: 25px;
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(38, 218, 137, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.crd-btn{
+  background: #1e2167;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.Projects{
+  height: 100vh;
+}

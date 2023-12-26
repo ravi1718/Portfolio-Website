@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <img src="/images/icon.png" alt="" style="width: 70px" />Ravitej's
+          Portfolio
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Certificates</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="first">
+        <div class="leftsection">
+          Hi,My name is <span class="purple">Ravitej Neeli</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">
+              <a href="https://github.com/ravi1718" style="color: white"
+                >Visit GitHub</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="/images/bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <h1>About Me</h1>
+        <img class="profile-img" src="/images/profile img.jpg" alt="">
+        <div class="text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusantium, totam reprehenderit laborum, perferendis rem quod cum consequuntur, veritatis minus consequatur illum at distinctio nobis iusto facilis mollitia! Cumque eos iusto quod a libero assumenda veniam magni, sed eaque alias adipisci veritatis harum reprehenderit voluptatum earum consectetur, impedit atque at quo deleniti obcaecati quasi. A minus commodi odit cumque culpa.
+        </div>
+        <div class="socials">
+          <ul>
+            <li><a href="#"></a><i class="fa fa-facebook"></i></li>
+            <li><a href="#"></a><i class="fa fa-twitter"></i></li>
+            <li><a href="#"></a><i class="fa fa-google-plus"></i></li>
+            <li><a href="#"></a><i class="fa fa-whatsapp"></i></li>
+            <li><a href="#"></a><i class="fa fa-github"></i></li>
+            
+            
+          </ul>
+        </div>
+      </section>
+      <hr />
+      <section class="thirdsection">
+        <h1>Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="/images/developer.png" alt="" />
+            <div class="vertical-title">HTML Developer(2022-2023)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              recusandae velit dolore, et, dolorem, repudiandae similique cum
+              nesciunt consequuntur ullam perferendis quibusdam illo?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="/images/developer.png" alt="" />
+            <div class="vertical-title">JAVA Developer(2022-2023)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              recusandae velit dolore, et, dolorem, repudiandae similique cum
+              nesciunt consequuntur ullam perferendis quibusdam illo?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="/images/developer.png" alt="" />
+            <div class="vertical-title">React.js Developer(2023-2024)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              recusandae velit dolore, et, dolorem, repudiandae similique cum
+              nesciunt consequuntur ullam perferendis quibusdam illo?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="/images/developer.png" alt="" />
+            <div class="vertical-title">NEXT.js Developer(2024-2025 )</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              recusandae velit dolore, et, dolorem, repudiandae similique cum
+              nesciunt consequuntur ullam perferendis quibusdam illo?
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="Certificates">
+        <h1>CERTIFICATES</h1>
+        <div class="container1">
+          <img src="/images/c certificate.jpg" alt="">
+          <img src="/images/java certificate.jpg" alt="">
+          <img src="/images/c certificate.jpg" alt="">
+        </div>
+        
+      </section>
+      <hr />
+
+      <section class="Projects">
+        <h1>PROJECTS</h1>
+        <div class="card">
+          <img src="/images/card icon.jpg" alt="icon">
+          <div class="container">
+            <h4><b>Weather-App</b></h4> 
+            <p>created a weather app using HTML CSS and JavaScript <br>which tells the current weather of <br>the location you enter
+            </p> 
+            <button class="crd-btn">
+              <a href=" https://ravi1718.github.io/Weather-App/" style="color: white;">click here</a>
+            </button>
+          </div>
+        </div>
+      </section>
+
+
+
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "UI-UX Designer", "JAVA Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
