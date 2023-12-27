@@ -25,13 +25,23 @@
           Portfolio
         </div>
         <div class="right">
-          <ul>
+          <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
             <li><a href="#scrollToSection" onclick="scrollToHome()">Home</a></li>
             <li><a href="#scrollToSection" onclick="scrollToAbout()">About</a></li>
             <li><a href="#scrollToSection" onclick="scrollToExperience()">Experience</a></li>
             <li><a href="#scrollToSection" onclick="scrollToCertificates()">Certificates</a></li>
             <li><a href="#scrollToSection" onclick="scrollToProjects()">Projects</a></li>
             <li><a href="#scrollToSection" onclick="scrollToContact()">Contact Me</a></li>
+          </ul>
+          <ul>
+            <li class="hideOnMobile"><a href="#scrollToSection" onclick="scrollToHome()">Home</a></li>
+            <li class="hideOnMobile"><a href="#scrollToSection" onclick="scrollToAbout()">About</a></li>
+            <li class="hideOnMobile"><a href="#scrollToSection" onclick="scrollToExperience()">Experience</a></li>
+            <li class="hideOnMobile"><a href="#scrollToSection" onclick="scrollToCertificates()">Certificates</a></li>
+            <li class="hideOnMobile"><a href="#scrollToSection" onclick="scrollToProjects()">Projects</a></li>
+            <li class="hideOnMobile"><a href="#scrollToSection" onclick="scrollToContact()">Contact Me</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
           </ul>
         </div>
       </nav>
